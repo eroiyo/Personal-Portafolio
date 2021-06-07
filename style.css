@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Edelsans, Avenir, sans-serif;
+  height: 100vh;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-image: url(assest/circles.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.headline {
+  background-color: #191765;
+}
+h1 {
+  font-size: 4vw;
+  color: #9391ff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 2vw;
+  color: #dfe1e6;
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+}
+p {
+  font-size: 1vw;
+  text-align: center;
+  width: 31.041666666666668vw;
+}
+
+h4 {
+  font-size: 1.5vw;
+  text-align: center;
+  color: #9390ff;
+  margin-bottom: 1vw;
+}
+.box {
+  height: 50vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 40%;
+}
+.bar {
+  width: 50vw;
+  height: 0.5px;
+}
+th,
+td {
+  padding-left: 3.7vw;
+  padding-right: 3.5vw;
+  font-size: 1vw;
+}
+
+td {
+  padding-top: 1vw;
+}
